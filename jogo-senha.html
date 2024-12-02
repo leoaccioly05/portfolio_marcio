@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Senha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre-mim.html">Sobre Mim</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="jogo-senha.html">Jogo Senha</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Jogo Senha</h1>
+        <div class="game-container">
+            <input type="number" id="guess" maxLength="4" placeholder="Digite uma tentativa">
+            <button onclick="handleGuess()">Tentar</button>
+            <button onclick="showCombination()">Mostrar Combinação</button>
+            <p id="gameResult"></p>
+            <div class="attempts" id="attemptsList"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

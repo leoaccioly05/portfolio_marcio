@@ -1,0 +1,142 @@
+/* Resetando margens e preenchimentos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Barra de navegação */
+nav {
+    background-color: #333;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Estilos dos itens de navegação */
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+/* Estilo dos itens de navegação */
+nav ul li {
+    margin: 0 20px;
+}
+
+/* Estilo dos links de navegação */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre os links */
+nav ul li a:hover {
+    color: #f4a261;  /* Cor laranja suave */
+}
+
+/* Estilo das seções do conteúdo */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Títulos das seções */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Parágrafos das seções */
+p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Botões com estilo mais atraente */
+button {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+}
+
+/* Efeito ao passar o mouse sobre os botões */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Caixa de tentativas no jogo */
+.attempts {
+    margin-top: 20px;
+}
+
+.attempt {
+    padding: 10px;
+    background-color: #e2e2e2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo do campo de entrada */
+input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+/* Foco no campo de entrada */
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Estilo da lista de tentativas */
+#attemptsList {
+    margin-top: 20px;
+}
